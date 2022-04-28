@@ -1,6 +1,5 @@
 import React, { memo } from "react";
 import { Card, Typography, Button, Select, MenuItem } from '../../../components';
-import RefreshIcon from '../../../assets/images/refresh.svg';
 import COUNTRIES from '../../../commons/constants/countries';
 import { CardPanelContentStyled, ItemStyled } from './style';
 
@@ -8,7 +7,7 @@ const navigatorHasShare = navigator.share;
 
 function Panel({ updateAt, onChange, data, country, getCovidData }) {
 
-    const { cases, todayDeaths, recovered, deaths, todayCases } = data;
+    const { recovered } = data;
 
     const renderCountries = (country, index) => (
         <MenuItem key={`coutry-${index}`} value={country.value}>

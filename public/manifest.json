@@ -1,6 +1,5 @@
 {
-  "lang": "pt",
-  "short_name": "DIO_PWA",
+  "short_name": "DIO PWA",
   "name": "Covid 19 DIO PWA",
   "icons": [
     {
@@ -19,7 +18,7 @@
       "sizes": "512x512"
     }
   ],
-  "start_url": "/",
+  "start_url": ".",
   "display": "standalone",
   "theme_color": "#000000",
   "background_color": "#ffffff"
