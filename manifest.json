@@ -16,7 +16,7 @@
             "purpose": "any maskable"
         }
     ],
-    "start_url": ".",
+    "start_url": "https://my-project-about-covid19.netlify.app/",
     "background_color": "#ffffff",
     "display": "fullscreen",
     "orientation": "portrait",
