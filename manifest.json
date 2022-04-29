@@ -16,23 +16,9 @@
             "purpose": "any maskable"
         }
     ],
-    "start_url": "https://my-project-about-covid19.netlify.app/",
+    "start_url": ".",
     "background_color": "#ffffff",
     "display": "fullscreen",
     "orientation": "portrait",
-    "theme_color": "#000000",
-    "shortcuts": [
-        {
-            "name": "Covid19 PWA",
-            "short_name": "Covid19PWA",
-            "description": "Aplicação com PWA e Vite",
-            "url": "?source=pwa",
-            "icons": [
-                {
-                    "src": "public/logo192.png",
-                    "sizes": "192x192"
-                }
-            ]
-        }
-    ]
+    "theme_color": "#000000"
 }
