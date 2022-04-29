@@ -1,9 +1,6 @@
 const CACHE_NAME = 'covid-19-cache';
 const urlsToCache = [
-  '/',
-  '/index.html',
-  '/index.jsx',
-  '/App.jsx'
+  '/'
 ]
 
 self.addEventListener('install', function (event) {
